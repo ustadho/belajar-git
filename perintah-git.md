@@ -46,3 +46,5 @@ git clone git@github.com:ustadho/belajar-git.git
 git push -u namaremte namabranch
 git push -u origin master
 
+12. Melihat daftar branch
+    git branch --all

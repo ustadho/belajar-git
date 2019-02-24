@@ -113,3 +113,6 @@ Teknisnya:
 
 $ git branch perbaikan-format-angka
 $ git branch
+
+
+git log --oneline --all --decorate --graph
