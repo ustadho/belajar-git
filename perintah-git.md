@@ -33,3 +33,16 @@ git reset
 
 git reset --hard
 
+9. Mendaftarkan remote repository
+
+git remote add origin git@github.com:ustadho/belajar-git.git
+
+10. Mengambil repo dari remote
+
+git clone git@github.com:ustadho/belajar-git.git
+
+11. Mengupload repo lokal ke remote
+
+git push -u namaremte namabranch
+git push -u origin master
+

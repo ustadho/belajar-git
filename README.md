@@ -83,4 +83,33 @@ add <> reset
 tambahkan ssh key dari folder ~/ssh
 buka id_rsa.pub
 
+## Branch 
 
+Istilah: 
+HEAD: ujung dari branch commit terakhir
+
+head dengan huruf besar artinya aktif, yang kita sedang ada didalamnya
+Branch: HEAD yang dikasih nama misal (1.x)
+
+$ git status
+
+akan menampilkan sedang di branch mana kita saat ini
+untuk melihat ada branch apa saja di repository ini
+
+$ git branch
+
+saat ini hanya ada satu branch, sebetulnya ada satu branch lagi yaitu remote branch (untuk mapping dengan kondisi di remote)
+
+untuk menampilkan semua branch (termasuk yang di remote)
+
+$ git branch -a
+
+Kenapa ada 2? karena kalau kita kerja sedangkan ada orang lain yang sudah push. Kita mau mendownload yang diremote, 
+tapi kita belum tentu mau pasang (merge) di lokal kita.
+
+solusinya kita pakai command fetch
+
+Teknisnya:
+
+$ git branch perbaikan-format-angka
+$ git branch
