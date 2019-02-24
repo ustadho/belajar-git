@@ -41,3 +41,46 @@ git reset
 
 maka sekarang posisinya semua perubahan belum staging
 
+Pilih baris per baris yang akan ditambahkan
+
+```
+git add -p
+```
+
+Stage this hunk [y,n,q,a,d,e,?]? 
+tekan Enter untuk menampilkan keterangan
+
+Apakah potingan ini mau dimasukkan ke staging?
+
+y - stage this hunk (semua yang tampil disini akan masuk)
+n - do not stage this hunk (enggak usah)
+q - quit; do not stage this hunk or any of the remaining ones
+a - stage this hunk and all later hunks in the file
+d - do not stage this hunk or any of the later hunks in the file
+e - manually edit the current hunk
+? - print help
+
+biasanya yang digunakan 's' (split), potongannya baris per baris
+
+untuk melihat apa saja yang di staging
+```
+git diff --staged
+```
+
+apa saya yang tidak masuk staging
+```
+git diff
+```
+
+Hati hati menggunakan git reset --hard karena bisa berpotensi menghilangkan semua perubahan terakhir
+
+add <> reset
+
+## GitIgnore
+
+## Remote Repository
+
+tambahkan ssh key dari folder ~/ssh
+buka id_rsa.pub
+
+

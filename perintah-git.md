@@ -27,3 +27,9 @@ git diff commitId1 commitId2
 
 7. Membatakan perubahan staging dan working
 
+git reset
+
+8. Membatalkan perubahan di staging dan working (!!Bahaya!!)
+
+git reset --hard
+
