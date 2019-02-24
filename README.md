@@ -121,3 +121,23 @@ Untuk melakukan merge dengan master, pastikan kita berada di branch master
 
 $ git checkout master
 $ git merge perbaikan-format-angka
+
+Menghapus branch perbaikan-format-angka
+$ git branch -d perbaikan-format-angka
+
+Di lokal sudah gak ada, tapi di remote masih ada, gimana cara hapusnya?
+aslinya:
+$ git push origin perbaikan:perbaikan
+maknanya kita akan meng-push branch local dengan nama **perbaikan** dan di remote juga dengan nama **perbaikan**, karena namanya sama maka bisa disingkat dengan satu nama saja.
+
+Bagaimana dengan menghapus?
+Sekarang branch di local kan sudah gak ada, 
+
+$ git push origin :perbaikan-format-angka
+
+artinya kita akan mengupdate branch di remote dengan **null** 
+
+
+
+
+
