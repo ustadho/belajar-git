@@ -115,4 +115,9 @@ $ git branch perbaikan-format-angka
 $ git branch
 
 
-git log --oneline --all --decorate --graph
+## Merge delete Branch
+
+Untuk melakukan merge dengan master, pastikan kita berada di branch master
+
+$ git checkout master
+$ git merge perbaikan-format-angka
